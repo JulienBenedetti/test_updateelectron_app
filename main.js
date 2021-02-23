@@ -1,9 +1,5 @@
 // only add update server if it's not being run from cli
-if (require.main !== module) {
-  require('update-electron-app')({
-    logger: require('electron-log')
-  })
-}
+  require('update-electron-app')();
 
 const path = require('path')
 const glob = require('glob')
@@ -25,7 +21,7 @@ function initialize () {
       width: 1080,
       minWidth: 680,
       height: 840,
-      title: "This is a big title"
+      title: "LE GROS TITRE GRAS QUI TACHE => BITE"
     }
 
     if (process.platform === 'linux') {
