@@ -25,7 +25,7 @@ function initialize () {
       width: 1080,
       minWidth: 680,
       height: 840,
-      title: "This is a big title"
+      title: app.getName()
     }
 
     if (process.platform === 'linux') {
