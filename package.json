@@ -1,0 +1,29 @@
+{
+  "name": "test_updateelectron_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienBenedetti/test_updateelectron_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulienBenedetti/test_updateelectron_app/issues"
+  },
+  "homepage": "https://github.com/JulienBenedetti/test_updateelectron_app#readme",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}
