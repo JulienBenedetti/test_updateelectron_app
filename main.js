@@ -21,7 +21,7 @@ function initialize () {
       width: 1080,
       minWidth: 680,
       height: 840,
-      title: "LE GROS TITRE GRAS QUI TACHE => BITE"
+      title: app.getName()
     }
 
     if (process.platform === 'linux') {
