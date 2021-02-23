@@ -1,5 +1,8 @@
 // only add update server if it's not being run from cli
-  require('update-electron-app')();
+  require('update-electron-app')({
+    updateInterval: '5 minuts',
+    notifyUser: true
+  });
 
 const path = require('path')
 const glob = require('glob')
