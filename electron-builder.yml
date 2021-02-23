@@ -1,4 +1,4 @@
 appId: com.example.test_updateelectron_app
 publish:
   provider: github
-  token: bd6bb818d85397eacba17925107617f6396c3c84
+  token: 0a99fec596f5ed2d292865f2cfc58f40a4d4cf16
