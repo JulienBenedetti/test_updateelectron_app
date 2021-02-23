@@ -1,6 +1,6 @@
 // only add update server if it's not being run from cli
   require('update-electron-app')({
-    updateInterval: '5 minuts',
+    updateInterval: '5 minutes',
     notifyUser: true
   });
 
@@ -24,7 +24,7 @@ function initialize () {
       width: 1080,
       minWidth: 680,
       height: 840,
-      title: app.getName()
+      title: "Ceci est le titre de la 1.5"
     }
 
     if (process.platform === 'linux') {
